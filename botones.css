@@ -1,0 +1,23 @@
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:darkgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
+button:hover, .btn:hover {
+    background-color: #e0e0e0; 
+    border-color: #999; 
+}
+
+.centrado-btn{
+    position: absolute;
+    right: 45%;
+    top: 84%;
+}

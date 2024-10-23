@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    background-image: url('fondo-azul-negro.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: darkorange;
+    text-align: center;
+}
+h3{
+    color: darkorange;
+    text-align: center;
+}
+p{
+    color:darkblue;
+    font-weight: bold;
+}
+.img-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 80%;
+}
+.contenedor{
+    position: absolute;
+    right: 34%;
+    width: 450px;
+    background-color:slategrey;
+    border: 2px #ccc;
+    border-radius: 10px;
+    color: darkblue;
+}
+
+#formulario{
+    flex: 0 0 auto;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    right: 39%;
+}
+#formulario label{
+    font-weight: bold;
+}

@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('fondo_rab.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+}
+.centro-btn{
+    text-align: center;
+}
+
+#linea{
+    position: absolute;
+    top: 22%; /* Ubicacion del eje Y */
+    left: 0; /* Ubicacion del eje X */
+    width: 100%; /* Ancho completo para que atraviese toda la ventana */
+    height: 4px; /* Grosor de la línea */
+    background-color: black; /* Color de la línea */
+}
+
+table{
+    position: absolute;
+    background-color: aliceblue;
+    right: 9%;
+    top: 25%;
+    border-collapse: collapse;
+    width: 50%;
+}
+table th{
+    border: 2px solid;
+    color: blue;
+    text-align: center;
+    padding: 8px;
+}
+table td{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 1rem;
+}
